@@ -15,11 +15,12 @@ public class Music {
 
     public void get_info(){
         System.out.println(this.name + " by " + this.author + ". genre: " + this.genre + ". Costs " +this.price);
-
     }
 
     public String toString(){
         return this.name + " by " + this.author ;
     }
+
+
 
 }
